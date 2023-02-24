@@ -5,12 +5,20 @@
 }
 
 body {
-  background-color: darkblue;
+  background-color: lightblue;
 }
 
 .header {
   padding: 20px;
   font-family: monospace;
-  color: lightblue;
+  color: darkblue;
   text-align: center;
 } 
+
+button {
+  font-family: monospace;
+  color: darkblue;
+  font-size: 20px;
+  text-align: center;
+  margin-right:auto
+}
