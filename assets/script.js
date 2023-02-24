@@ -9,3 +9,7 @@ var button4 = document.getElementById("4");
 //   document.getElementById("box1").innerHTML = "CLICK!";
 //   document.getElementById("box1").style.backgroundColor = "Green";
 // }
+
+document.getElementById("begin").addEventListener('click', event => {
+  document.getElementById('start').classList.remove('hidden')
+})
