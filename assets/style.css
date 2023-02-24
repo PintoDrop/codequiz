@@ -1,5 +1,5 @@
 * {
-  boxing-sizing: border-box;
+  /* boxing-: border-box; */
   padding: 0;
   margin: 0;
 }
@@ -13,4 +13,4 @@ body {
   font-family: monospace;
   color: lightblue;
   text-align: center;
-}
+} 
