@@ -1,0 +1,16 @@
+* {
+  boxing-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: darkblue;
+}
+
+.header {
+  padding: 20px;
+  font-family: monospace;
+  color: lightblue;
+  text-align: center;
+}
