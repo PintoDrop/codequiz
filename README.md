@@ -2,11 +2,15 @@
 
 ## Description
 
+For this assignment I was tasked with creating a website from scratch that lets the user take a quiz to practice some knowledge about coding.
+
 ## Installation
 
 N/A
 
 ## Usage
+
+This website is to help the user understand coding better and be able to test what they do know within the website.
 
 ## Credits
 
