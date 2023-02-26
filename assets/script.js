@@ -2,14 +2,14 @@
 // var button2 = document.getElementById("2");
 // var button3 = document.getElementById("3");
 // var button4 = document.getElementById("4");
-var beginBTN = document.getElementById("begin")
-var beginQuiz = document.getElementById("begin");
+// var beginBTN = document.getElementById("begin")
+// var beginQuiz = document.getElementById("begin");
+// get.click();
 
 const get=document.getElementById('begin');
-get.click();
 
 function clickEvent(){
-  console.log("Click Even triggered")
+  console.log("Quiz Begins")
   currentQuestion= 0;
   
   let questions = [
@@ -58,5 +58,5 @@ function clickEvent(){
 
 document.getElementById("begin").addEventListener('click', event => {
   // questions();
-  document.getElementById("questions").classList.remove('hidden')
+  // document.getElementById("questions").classList.remove('hidden')
 })
