@@ -2,7 +2,7 @@
 
 ## Description
 
-For this assignment I was tasked with creating a website from scratch that lets the user take a quiz to practice some knowledge about coding.
+For this assignment I was tasked with creating a website from scratch that lets the user take a quiz to practice some knowledge about coding. During this assignment I had to make a working quiz that used a timer to test the users knowledge of coding.
 
 ## Installation
 
@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-This website is to help the user understand coding better and be able to test what they do know within the website.
+This website is to help the user understand coding better and be able to test what they do know within the website. The user is presented with questions and multiple choice answers. When the user gets a question right they are presented with an alert that it was correct and vice versa if they answered incorrectly.
 
 ## Credits
 
@@ -41,12 +41,12 @@ GIVEN I am taking a code quiz
 
 ## Repository Link
 
-[Github]( )
+[Github](https://github.com/PintoDrop/codequiz)
 
 ## Website Link
 
-[Password Generator]( )
+[Code-Quiz](https://pintodrop.github.io/codequiz/)
 
 ## Screen Shots
 
-![Deployed Website](./images/Deplyed-website.JPG)
+![Deployed Website](./assets/images/Website%20Screenshot.JPG)

@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UFT-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./assets/style.css">
-  </head>
 
-  <body>
-  
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <h1>Test Your Knowdledge!</h1>
-        <a id="begin">Begin</a>
-        <div id="options" class="row hidden">
-          <div class="col s12 m6">Questions</div>
-          <div class="col s12 m6">Answers</div>
-        </div>
-      </div>
-    </div>
-  </div> -->
+<head>
+  <meta charset="UFT-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
 
-    <header class="header">
-      <h1>Test Your Knowdledge!</h1>
-    </header>
+<body>
 
-<button id="begin" onClick="clickEvent()">Begin Quiz!</button>
-<div id="questions" class="hidden">
-  <div class="col s12 m6">Questions</div>
+  <header class="header">
+    <h1>Test Your Knowledge!</h1>
+  </header>
 
-  <!-- <div class="float-center">Question: </div> -->
+  <button id="begin">Begin Quiz!</button>
+  <div id="timer" class="timer"> </div>
+  <div id="questions">
+    <!-- <div id="score1"></div> -->
+  </div>
+  <br>
+  <br>
 
-<!-- <question1 id="start" class="float-center">What does HTML Stand for?</question1>
+  <div id="endGame">
+    <button id="playAgain" onclick="begin()">Play Again</button>
+    <br>
+    <button id="Highscore" onclick="showScore()"> Highscores</button>
+  </div>
+
+
+  <!-- <question1 id="start" class="float-center">What does HTML Stand for?</question1>
 </div> -->
 
-<!-- <button id="1" class="hidden">Hyper-Taunt Language Mark-Up</button> -->
+  <!-- <button id="1" class="hidden">Hyper-Taunt Language Mark-Up</button> -->
 
 
-    <script src="./assets/script.js"></script>
-  </body>
+  <script src="./assets/script.js"></script>
+</body>
+
 </html>
