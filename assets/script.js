@@ -3,6 +3,9 @@ var currentIndex = 0;
 var questionsDiv = document.getElementById("questions");
 var timer;
 var timerElement = document.getElementById("timer");
+var correctAnswer;
+var incorrectAnswer1;
+var incorrectAnswer2;
 
 var questions = [
   {
@@ -40,6 +43,10 @@ var count = questions.length * 10;
 
 // function loseGame() {}
 
+function endQuiz() {
+  
+}
+
 function initTimer() {
   timer = setInterval(tick, 1000);
   clearTimeout();
@@ -58,7 +65,9 @@ function tick() {
 }
 
 // call function to end quiz
-// function endQuiz() {
+function endQuiz() {
+  return
+}
 //   clearInterval(myInterval);
 //   if (count <= 0) {
 //     clearTimeout();
@@ -112,14 +121,21 @@ function begin() {
 
 questionsDiv.addEventListener("click", function (event) {
   if (event.target.className === "choice") {
-    // check if correct or not
+    // ****check if correct or not
+  //    if (response == questions[i].answer) {
+  //   score++;
+  //   alert("Correct!");
+  // } else {
+  //   alert("Incorrect");
+  // }
+  // alert("You answered " + score + "/" + questions.length + " correctly");
     currentIndex++
     renderQuestion();
   }
 });
 
 document.getElementById("begin").addEventListener("click", begin);
-endQuiz();
+// endQuiz();
 
 // if (response == questions[i].answer) {
 //   score++;
