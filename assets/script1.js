@@ -15,9 +15,6 @@ let questions = [
       { text: "Hyper-Text Markup Language!", val: 1 },
       { text: "Hiding Text Markup Lists!", val: 0 },
     ],
-    // correctAnswer: "Hyper-Text Markup Language!",
-    // incorrectAnswer1: "Hiding Text Markup Lists!",
-    // incorrectAnswer2: "Hyperbolic Time Means Lazy!",
   },
 
   {
@@ -27,7 +24,6 @@ let questions = [
       { text: "Danger Over Model", val: 0 },
       { text: "Document Object Model", val: 1 },
     ],
-    // answer: "Document Object Model",
   },
 
   {
@@ -37,7 +33,6 @@ let questions = [
       { text: "Border, Font-Size, Flex", val: 0 },
       { text: "Function, Header, Float", val: 0 },
     ],
-    // answer: "Margin, Padding, Border",
   },
 ];
 let count = questions.length * 10;
