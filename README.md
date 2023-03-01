@@ -2,7 +2,7 @@
 
 ## Description
 
-For this assignment I was tasked with creating a website from scratch that lets the user take a quiz to practice some knowledge about coding. During this assignment I had to make a working quiz that used a timer to test the users knowledge of coding. I had a lot of difficulty with the timer being used for the quiz but was able to get the timer started when you begin the quiz. I was also able to make the timer be 10 seconds per question. When I add a new question the timer will increase by 10 seconds.
+For this assignment I was tasked with creating a website from scratch that lets the user take a quiz to practice some knowledge about coding. During this assignment I had to make a working quiz that used a timer to test the users knowledge of coding. I had a lot of difficulty with the timer being used for the quiz but was able to get the timer started when you begin the quiz. I was also able to make the timer be 10 seconds per question. When I add a new question the timer will increase by 10 seconds. I was tasked with creating a spot for initials and high score for the user but was out of time before I begin tackling that aspect of the project.
 
 ## Installation
 
@@ -49,4 +49,4 @@ GIVEN I am taking a code quiz
 
 ## Screen Shots
 
-![Deployed Website](./assets/images/Website%20Screenshot1.JPG)
+![Deployed Website](./assets/images/Website%20Screenshot3.JPG)
